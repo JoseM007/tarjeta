@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Shantell Sans', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+body {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+    background:rgb(45, 45, 50); 
+}
+
+.card1 {
+    position: absolute;
+    width: 260px;
+    height: 500px;
+    background:rgba(18, 9, 75, 0.842);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.card1 .head .logo img {
+    height: 260px;
+    background-size: 270px 270px;
+    border-radius: 15px;
+    background-position: center bottom;
+    padding: 10px 10px 10px 10px;
+}
+
+.card1 .head .description {
+    padding: 8px 4px 4px 4px;
+    margin: 10px;
+    border: solid floralwhite
+}
+
+.ether{
+    float: left;
+    margin:5px;
+    color: rgb(0, 225, 255);
+    cursor: pointer;
+    
+}
+.reloj {
+    margin: 5px;
+    float: right;
+    color: crimson;
+}
+
+.fotoCreador img {
+    height: 38px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.infoCreador {
+    margin: 5px;
+    float: right;
+    margin-right: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+h3 , p {
+    font-size:15px;
+    margin: 5px;
+    color: rgb(255, 254, 254);
+    
+}
+
+.hr3 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
